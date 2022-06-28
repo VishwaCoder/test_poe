@@ -8,6 +8,6 @@
       fact=fact*i;    
   }  
 %>
-<p>result = <%= fact%></p>
+<p>factorial is = <%= fact%></p>
 </body>
 </html>
