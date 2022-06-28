@@ -1,9 +1,13 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Java application to print factorial of a number</h2>
 <%!
-	int a = 10;
+	int i,fact=1;  
+  int number=5;    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }  
 %>
-<p>result = <%= a%></p>
+<p>result = <%= fact%></p>
 </body>
 </html>
